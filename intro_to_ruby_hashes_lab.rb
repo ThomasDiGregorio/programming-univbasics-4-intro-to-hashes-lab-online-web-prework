@@ -23,7 +23,9 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  
+  h = { "a" => 100, "b" => 200 }
+h["a"]   #=> 100
+h["c"]   #=> nil
 end
 
 def update_counting_hash(hash, key)
