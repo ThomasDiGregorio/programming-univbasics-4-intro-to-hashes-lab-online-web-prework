@@ -26,7 +26,17 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  
+  person = {
+  name: "Sam",
+  age: 31
+}
+#=> {:name=>"Sam", :age=>31}
+ 
+person[:age]
+#=> 31
+ 
+person[:age] = 32
+#=> 32
   
   
 end
